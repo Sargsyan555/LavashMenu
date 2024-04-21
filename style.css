@@ -7,6 +7,8 @@ body{
     margin: auto;
 }
 .nav{
+    margin-top: 20px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,7 +46,8 @@ header .content .img{
     justify-content: center;
 }
 header .content .img img{
-
+    width: 190px;
+    border-radius: 100%;
 }
 header .content .text{
     width: 40%;
@@ -87,6 +90,10 @@ a{
     display: flex;
     justify-content: center;
 }
+.menu .item .img img{
+    border-radius: 100%;
+
+}   
 .menu .item .about{
     width: 50%;
     display: flex;
